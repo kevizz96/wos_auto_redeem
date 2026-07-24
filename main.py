@@ -156,8 +156,9 @@ def batch_redeem(accounts: list, gift_codes: list):
 
             if cdk in history["expired_codes"]:
                 break
-
-            delay = round(random.uniform(3.0, 7.0), 2)
+                
+            delay = round(random.uniform(2.0, 3.0), 2)
+            logging.info(f"      Sleep Delay: {delay}s")
             time.sleep(delay)
 
     # Summary
