@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
     inputs:
       gift_codes:
-        description: 'Optional manual codes (leave empty to use Sheet codes only)'
+        description: 'Optional manual codes (space or comma separated)'
         required: false
         default: ''
 
