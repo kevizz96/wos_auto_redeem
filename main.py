@@ -35,8 +35,8 @@ headers = {
 }
 
 def log_and_print(msg: str, level: str = "info"):
-    """Helper function to simultaneously print to console and write to log file."""
-    print(msg, flush=True)  # flush=True forces immediate output in GitHub Actions
+    """Helper function to simultaneously print to console (GitHub Actions) and write to log file."""
+    print(msg, flush=True)
     if level == "warning":
         logging.warning(msg)
     elif level == "error":
@@ -45,21 +45,31 @@ def log_and_print(msg: str, level: str = "info"):
         logging.info(msg)
 
 def load_accounts_from_sheet(csv_url: str) -> list:
-    """Fetches account list directly from the 'player_ids' tab."""
+    """Fetches account list directly from the 'player_ids' tab and deduplicates Player IDs."""
     log_and_print("::group::Fetching Accounts from Google Sheet (tab: player_ids)")
     try:
         res = requests.get(csv_url, timeout=10)
         res.raise_for_status()
         
         accounts = []
+        seen_fids = set()
+        duplicates_count = 0
+        total_rows = 0
+        
         reader = csv.DictReader(io.StringIO(res.text))
         for row in reader:
+            total_rows += 1
             fid = str(row.get("fid", "")).strip()
             kid = str(row.get("kid", "")).strip()
+            
             if fid and kid:
-                accounts.append({"fid": fid, "kid": kid})
+                if fid not in seen_fids:
+                    seen_fids.add(fid)
+                    accounts.append({"fid": fid, "kid": kid})
+                else:
+                    duplicates_count += 1
                 
-        log_and_print(f"[✓] Successfully loaded {len(accounts)} accounts from 'player_ids'.")
+        log_and_print(f"[✓] Loaded {len(accounts)} UNIQUE Player IDs (Processed {total_rows} total rows, skipped {duplicates_count} duplicates).")
         print("::endgroup::")
         return accounts
     except Exception as e:
@@ -115,12 +125,17 @@ def batch_redeem(accounts: list, gift_codes: list):
     history = load_history()
     stats = {"success": 0, "already_claimed": 0, "skipped_memory": 0, "expired": 0, "failed": 0}
     
+    unique_account_count = len(accounts)
+    unique_history_count = len(history.get("claimed", {}))
+    
     log_and_print("=== Starting Batch Redemption Run ===")
+    log_and_print(f"Target Accounts  : {unique_account_count} Unique Player IDs")
+    log_and_print(f"History Memory   : {unique_history_count} Unique Player IDs recorded\n")
     
     for cdk in gift_codes:
         if cdk in history["expired_codes"]:
             log_and_print(f"--- Code: '{cdk}' [SKIPPED: Marked as Expired in Memory] ---")
-            stats["expired"] += len(accounts)
+            stats["expired"] += unique_account_count
             continue
             
         log_and_print(f"--- Code: '{cdk}' ---")
@@ -195,14 +210,18 @@ def batch_redeem(accounts: list, gift_codes: list):
             delay = round(random.uniform(3.0, 7.0), 2)
             time.sleep(delay)
 
-    # Summary
+    # Final Summary Report
     total_processed = sum(stats.values())
     total_successful = stats["success"] + stats["already_claimed"] + stats["skipped_memory"]
+    updated_history_count = len(history.get("claimed", {}))
     
     summary_report = f"""
 ==========================================
          REDEMPTION SUMMARY REPORT        
 ==========================================
+  Total Unique Player IDs    : {unique_account_count}
+  Total History Unique IDs   : {updated_history_count}
+------------------------------------------
   [✓] Newly Redeemed         : {stats['success']}
   [-] Already Claimed (API)  : {stats['already_claimed']}
   [⏩] Skipped (Local Memory) : {stats['skipped_memory']}
