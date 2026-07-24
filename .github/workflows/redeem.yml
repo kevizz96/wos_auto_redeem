@@ -2,7 +2,7 @@ name: Whiteout Survival Auto Redeem
 
 on:
   schedule:
-    - cron: '18 14 * * *'
+    - cron: '* * * * *'
   workflow_dispatch:
     inputs:
       gift_codes:
