@@ -1,0 +1,377 @@
+2026-07-24 05:35:22,949 [INFO] === Fetching Accounts from Google Sheet ===
+2026-07-24 05:35:23,289 [INFO] Successfully loaded 59 accounts from Google Sheet.
+
+2026-07-24 05:35:23,290 [INFO] === Starting Batch Redemption Run ===
+2026-07-24 05:35:23,290 [INFO] --- Code: 'JULHD2026JP' ---
+2026-07-24 05:35:23,698 [INFO]   [!] EXPIRED CODE    | 'JULHD2026JP' is expired. Saving to memory...
+2026-07-24 05:35:23,699 [INFO] --- Code: '0706FORU' ---
+2026-07-24 05:35:24,052 [INFO]   [!] EXPIRED CODE    | '0706FORU' is expired. Saving to memory...
+2026-07-24 05:35:24,052 [INFO] --- Code: '1stYoutubeKR' ---
+2026-07-24 05:35:24,378 [INFO]   [-] ALREADY CLAIMED | Player ID: 206258850 (Same Event Type)
+2026-07-24 05:35:24,379 [INFO]       Sleep Delay: 2.28s
+2026-07-24 05:35:26,995 [INFO]   [-] ALREADY CLAIMED | Player ID: 178680408 (Same Event Type)
+2026-07-24 05:35:26,995 [INFO]       Sleep Delay: 2.99s
+2026-07-24 05:35:30,329 [INFO]   [-] ALREADY CLAIMED | Player ID: 197646356 (Same Event Type)
+2026-07-24 05:35:30,329 [INFO]       Sleep Delay: 2.8s
+2026-07-24 05:35:33,466 [INFO]   [-] ALREADY CLAIMED | Player ID: 190841885 (Same Event Type)
+2026-07-24 05:35:33,466 [INFO]       Sleep Delay: 2.47s
+2026-07-24 05:35:36,263 [INFO]   [-] ALREADY CLAIMED | Player ID: 198841815 (Same Event Type)
+2026-07-24 05:35:36,263 [INFO]       Sleep Delay: 2.78s
+2026-07-24 05:35:39,416 [INFO]   [-] ALREADY CLAIMED | Player ID: 200398539 (Same Event Type)
+2026-07-24 05:35:39,416 [INFO]       Sleep Delay: 2.27s
+2026-07-24 05:35:42,034 [INFO]   [-] ALREADY CLAIMED | Player ID: 233533445 (Same Event Type)
+2026-07-24 05:35:42,035 [INFO]       Sleep Delay: 2.27s
+2026-07-24 05:35:44,659 [INFO]   [-] ALREADY CLAIMED | Player ID: 179712561 (Same Event Type)
+2026-07-24 05:35:44,659 [INFO]       Sleep Delay: 2.01s
+2026-07-24 05:35:47,020 [INFO]   [-] ALREADY CLAIMED | Player ID: 248462897 (Same Event Type)
+2026-07-24 05:35:47,020 [INFO]       Sleep Delay: 2.59s
+2026-07-24 05:35:49,951 [INFO]   [-] ALREADY CLAIMED | Player ID: 179286900 (Same Event Type)
+2026-07-24 05:35:49,952 [INFO]       Sleep Delay: 2.28s
+2026-07-24 05:35:52,608 [INFO]   [-] ALREADY CLAIMED | Player ID: 138961481 (Same Event Type)
+2026-07-24 05:35:52,608 [INFO]       Sleep Delay: 2.77s
+2026-07-24 05:35:55,745 [INFO]   [-] ALREADY CLAIMED | Player ID: 197138068 (Same Event Type)
+2026-07-24 05:35:55,746 [INFO]       Sleep Delay: 2.36s
+2026-07-24 05:35:58,459 [INFO]   [-] ALREADY CLAIMED | Player ID: 215505556 (Same Event Type)
+2026-07-24 05:35:58,459 [INFO]       Sleep Delay: 2.7s
+2026-07-24 05:36:01,591 [INFO]   [-] ALREADY CLAIMED | Player ID: 191206910 (Same Event Type)
+2026-07-24 05:36:01,591 [INFO]       Sleep Delay: 2.74s
+2026-07-24 05:36:04,687 [INFO]   [-] ALREADY CLAIMED | Player ID: 321386187 (Same Event Type)
+2026-07-24 05:36:04,688 [INFO]       Sleep Delay: 2.88s
+2026-07-24 05:36:07,886 [INFO]   [-] ALREADY CLAIMED | Player ID: 206396393 (Same Event Type)
+2026-07-24 05:36:07,887 [INFO]       Sleep Delay: 2.35s
+2026-07-24 05:36:10,563 [INFO]   [-] ALREADY CLAIMED | Player ID: 199841828 (Same Event Type)
+2026-07-24 05:36:10,563 [INFO]       Sleep Delay: 2.72s
+2026-07-24 05:36:13,596 [INFO]   [-] ALREADY CLAIMED | Player ID: 181956502 (Same Event Type)
+2026-07-24 05:36:13,597 [INFO]       Sleep Delay: 2.02s
+2026-07-24 05:36:15,989 [INFO]   [-] ALREADY CLAIMED | Player ID: 215135464 (Same Event Type)
+2026-07-24 05:36:15,989 [INFO]       Sleep Delay: 2.65s
+2026-07-24 05:36:18,952 [INFO]   [-] ALREADY CLAIMED | Player ID: 221630710 (Same Event Type)
+2026-07-24 05:36:18,952 [INFO]       Sleep Delay: 2.09s
+2026-07-24 05:36:21,410 [INFO]   [-] ALREADY CLAIMED | Player ID: 207281088 (Same Event Type)
+2026-07-24 05:36:21,411 [INFO]       Sleep Delay: 2.15s
+2026-07-24 05:36:23,999 [INFO]   [-] ALREADY CLAIMED | Player ID: 192275638 (Same Event Type)
+2026-07-24 05:36:23,999 [INFO]       Sleep Delay: 2.09s
+2026-07-24 05:36:26,465 [INFO]   [-] ALREADY CLAIMED | Player ID: 198153961 (Same Event Type)
+2026-07-24 05:36:26,465 [INFO]       Sleep Delay: 2.57s
+2026-07-24 05:36:29,420 [INFO]   [-] ALREADY CLAIMED | Player ID: 206052445 (Same Event Type)
+2026-07-24 05:36:29,421 [INFO]       Sleep Delay: 2.57s
+2026-07-24 05:36:32,332 [INFO]   [-] ALREADY CLAIMED | Player ID: 288526153 (Same Event Type)
+2026-07-24 05:36:32,333 [INFO]       Sleep Delay: 2.3s
+2026-07-24 05:36:34,980 [INFO]   [-] ALREADY CLAIMED | Player ID: 236945509 (Same Event Type)
+2026-07-24 05:36:34,981 [INFO]       Sleep Delay: 2.43s
+2026-07-24 05:36:37,791 [INFO]   [-] ALREADY CLAIMED | Player ID: 194344232 (Same Event Type)
+2026-07-24 05:36:37,791 [INFO]       Sleep Delay: 2.17s
+2026-07-24 05:36:40,286 [INFO]   [-] ALREADY CLAIMED | Player ID: 178860721 (Same Event Type)
+2026-07-24 05:36:40,286 [INFO]       Sleep Delay: 2.71s
+2026-07-24 05:36:43,346 [INFO]   [-] ALREADY CLAIMED | Player ID: 252053499 (Same Event Type)
+2026-07-24 05:36:43,346 [INFO]       Sleep Delay: 2.39s
+2026-07-24 05:36:46,120 [INFO]   [-] ALREADY CLAIMED | Player ID: 178259965 (Same Event Type)
+2026-07-24 05:36:46,120 [INFO]       Sleep Delay: 2.97s
+2026-07-24 05:36:49,443 [INFO]   [-] ALREADY CLAIMED | Player ID: 232920331 (Same Event Type)
+2026-07-24 05:36:49,444 [INFO]       Sleep Delay: 2.56s
+2026-07-24 05:36:52,378 [INFO]   [-] ALREADY CLAIMED | Player ID: 221862687 (Same Event Type)
+2026-07-24 05:36:52,379 [INFO]       Sleep Delay: 2.07s
+2026-07-24 05:36:54,786 [INFO]   [-] ALREADY CLAIMED | Player ID: 199530391 (Same Event Type)
+2026-07-24 05:36:54,786 [INFO]       Sleep Delay: 2.17s
+2026-07-24 05:36:57,280 [INFO]   [-] ALREADY CLAIMED | Player ID: 207493182 (Same Event Type)
+2026-07-24 05:36:57,281 [INFO]       Sleep Delay: 2.43s
+2026-07-24 05:37:00,026 [INFO]   [-] ALREADY CLAIMED | Player ID: 181758388 (Same Event Type)
+2026-07-24 05:37:00,027 [INFO]       Sleep Delay: 2.28s
+2026-07-24 05:37:02,681 [INFO]   [-] ALREADY CLAIMED | Player ID: 262635853 (Same Event Type)
+2026-07-24 05:37:02,681 [INFO]       Sleep Delay: 2.95s
+2026-07-24 05:37:05,977 [INFO]   [-] ALREADY CLAIMED | Player ID: 197220451 (Same Event Type)
+2026-07-24 05:37:05,978 [INFO]       Sleep Delay: 2.09s
+2026-07-24 05:37:08,388 [INFO]   [-] ALREADY CLAIMED | Player ID: 270999856 (Same Event Type)
+2026-07-24 05:37:08,388 [INFO]       Sleep Delay: 2.22s
+2026-07-24 05:37:10,920 [INFO]   [-] ALREADY CLAIMED | Player ID: 287993718 (Same Event Type)
+2026-07-24 05:37:10,921 [INFO]       Sleep Delay: 2.9s
+2026-07-24 05:37:14,159 [INFO]   [-] ALREADY CLAIMED | Player ID: 179303271 (Same Event Type)
+2026-07-24 05:37:14,160 [INFO]       Sleep Delay: 2.66s
+2026-07-24 05:37:17,168 [INFO]   [-] ALREADY CLAIMED | Player ID: 248790551 (Same Event Type)
+2026-07-24 05:37:17,168 [INFO]       Sleep Delay: 2.18s
+2026-07-24 05:37:19,678 [INFO]   [-] ALREADY CLAIMED | Player ID: 204168351 (Same Event Type)
+2026-07-24 05:37:19,678 [INFO]       Sleep Delay: 2.95s
+2026-07-24 05:37:22,966 [INFO]   [-] ALREADY CLAIMED | Player ID: 230281501 (Same Event Type)
+2026-07-24 05:37:22,967 [INFO]       Sleep Delay: 2.18s
+2026-07-24 05:37:25,546 [INFO]   [-] ALREADY CLAIMED | Player ID: 236856728 (Same Event Type)
+2026-07-24 05:37:25,546 [INFO]       Sleep Delay: 2.12s
+2026-07-24 05:37:28,011 [INFO]   [-] ALREADY CLAIMED | Player ID: 243858391 (Same Event Type)
+2026-07-24 05:37:28,012 [INFO]       Sleep Delay: 2.37s
+2026-07-24 05:37:30,753 [INFO]   [-] ALREADY CLAIMED | Player ID: 795242762 (Same Event Type)
+2026-07-24 05:37:30,754 [INFO]       Sleep Delay: 2.56s
+2026-07-24 05:37:33,637 [INFO]   [-] ALREADY CLAIMED | Player ID: 233666803 (Same Event Type)
+2026-07-24 05:37:33,637 [INFO]       Sleep Delay: 2.11s
+2026-07-24 05:37:36,097 [INFO]   [-] ALREADY CLAIMED | Player ID: 778241028 (Same Event Type)
+2026-07-24 05:37:36,098 [INFO]       Sleep Delay: 2.21s
+2026-07-24 05:37:38,647 [INFO]   [-] ALREADY CLAIMED | Player ID: 386028579 (Same Event Type)
+2026-07-24 05:37:38,647 [INFO]       Sleep Delay: 2.45s
+2026-07-24 05:37:41,480 [INFO]   [-] ALREADY CLAIMED | Player ID: 272536116 (Same Event Type)
+2026-07-24 05:37:41,480 [INFO]       Sleep Delay: 2.43s
+2026-07-24 05:37:44,259 [INFO]   [-] ALREADY CLAIMED | Player ID: 189717993 (Same Event Type)
+2026-07-24 05:37:44,260 [INFO]       Sleep Delay: 2.06s
+2026-07-24 05:37:46,647 [INFO]   [-] ALREADY CLAIMED | Player ID: 186986048 (Same Event Type)
+2026-07-24 05:37:46,647 [INFO]       Sleep Delay: 2.61s
+2026-07-24 05:37:49,568 [INFO]   [-] ALREADY CLAIMED | Player ID: 147982644 (Same Event Type)
+2026-07-24 05:37:49,569 [INFO]       Sleep Delay: 2.93s
+2026-07-24 05:37:52,823 [INFO]   [-] ALREADY CLAIMED | Player ID: 178615267 (Same Event Type)
+2026-07-24 05:37:52,823 [INFO]       Sleep Delay: 2.75s
+2026-07-24 05:37:55,916 [INFO]   [-] ALREADY CLAIMED | Player ID: 475281320 (Same Event Type)
+2026-07-24 05:37:55,916 [INFO]       Sleep Delay: 2.29s
+2026-07-24 05:37:58,559 [INFO]   [-] ALREADY CLAIMED | Player ID: 711972452 (Same Event Type)
+2026-07-24 05:37:58,559 [INFO]       Sleep Delay: 2.52s
+2026-07-24 05:38:01,405 [INFO]   [-] ALREADY CLAIMED | Player ID: 711987337 (Same Event Type)
+2026-07-24 05:38:01,406 [INFO]       Sleep Delay: 2.36s
+2026-07-24 05:38:04,092 [INFO]   [-] ALREADY CLAIMED | Player ID: 708955382 (Same Event Type)
+2026-07-24 05:38:04,093 [INFO]       Sleep Delay: 2.07s
+2026-07-24 05:38:06,524 [INFO]   [✓] SUCCESS         | Player ID: 199211027
+2026-07-24 05:38:06,524 [INFO]       Sleep Delay: 2.72s
+2026-07-24 05:38:09,247 [INFO] --- Code: '2ndYoutubeKR' ---
+2026-07-24 05:38:09,554 [INFO]   [-] ALREADY CLAIMED | Player ID: 206258850 (Same Event Type)
+2026-07-24 05:38:09,555 [INFO]       Sleep Delay: 2.0s
+2026-07-24 05:38:11,893 [INFO]   [-] ALREADY CLAIMED | Player ID: 178680408 (Same Event Type)
+2026-07-24 05:38:11,894 [INFO]       Sleep Delay: 2.98s
+2026-07-24 05:38:15,168 [INFO]   [-] ALREADY CLAIMED | Player ID: 197646356 (Same Event Type)
+2026-07-24 05:38:15,168 [INFO]       Sleep Delay: 2.46s
+2026-07-24 05:38:17,970 [INFO]   [-] ALREADY CLAIMED | Player ID: 190841885 (Same Event Type)
+2026-07-24 05:38:17,971 [INFO]       Sleep Delay: 2.17s
+2026-07-24 05:38:20,450 [INFO]   [-] ALREADY CLAIMED | Player ID: 198841815 (Same Event Type)
+2026-07-24 05:38:20,450 [INFO]       Sleep Delay: 2.65s
+2026-07-24 05:38:23,397 [INFO]   [-] ALREADY CLAIMED | Player ID: 200398539 (Same Event Type)
+2026-07-24 05:38:23,397 [INFO]       Sleep Delay: 2.65s
+2026-07-24 05:38:26,395 [INFO]   [-] ALREADY CLAIMED | Player ID: 233533445 (Same Event Type)
+2026-07-24 05:38:26,395 [INFO]       Sleep Delay: 2.9s
+2026-07-24 05:38:29,616 [INFO]   [-] ALREADY CLAIMED | Player ID: 179712561 (Same Event Type)
+2026-07-24 05:38:29,617 [INFO]       Sleep Delay: 2.85s
+2026-07-24 05:38:32,762 [INFO]   [-] ALREADY CLAIMED | Player ID: 248462897 (Same Event Type)
+2026-07-24 05:38:32,763 [INFO]       Sleep Delay: 2.93s
+2026-07-24 05:38:35,985 [INFO]   [-] ALREADY CLAIMED | Player ID: 179286900 (Same Event Type)
+2026-07-24 05:38:35,986 [INFO]       Sleep Delay: 2.86s
+2026-07-24 05:38:39,141 [INFO]   [-] ALREADY CLAIMED | Player ID: 138961481 (Same Event Type)
+2026-07-24 05:38:39,142 [INFO]       Sleep Delay: 2.75s
+2026-07-24 05:38:42,287 [INFO]   [-] ALREADY CLAIMED | Player ID: 197138068 (Same Event Type)
+2026-07-24 05:38:42,288 [INFO]       Sleep Delay: 2.28s
+2026-07-24 05:38:44,915 [INFO]   [-] ALREADY CLAIMED | Player ID: 215505556 (Same Event Type)
+2026-07-24 05:38:44,916 [INFO]       Sleep Delay: 2.62s
+2026-07-24 05:38:47,832 [INFO]   [-] ALREADY CLAIMED | Player ID: 191206910 (Same Event Type)
+2026-07-24 05:38:47,833 [INFO]       Sleep Delay: 2.5s
+2026-07-24 05:38:50,647 [INFO]   [-] ALREADY CLAIMED | Player ID: 321386187 (Same Event Type)
+2026-07-24 05:38:50,647 [INFO]       Sleep Delay: 2.2s
+2026-07-24 05:38:53,154 [INFO]   [-] ALREADY CLAIMED | Player ID: 206396393 (Same Event Type)
+2026-07-24 05:38:53,154 [INFO]       Sleep Delay: 2.47s
+2026-07-24 05:38:55,968 [INFO]   [-] ALREADY CLAIMED | Player ID: 199841828 (Same Event Type)
+2026-07-24 05:38:55,969 [INFO]       Sleep Delay: 2.96s
+2026-07-24 05:38:59,320 [INFO]   [-] ALREADY CLAIMED | Player ID: 181956502 (Same Event Type)
+2026-07-24 05:38:59,321 [INFO]       Sleep Delay: 2.17s
+2026-07-24 05:39:01,805 [INFO]   [-] ALREADY CLAIMED | Player ID: 215135464 (Same Event Type)
+2026-07-24 05:39:01,806 [INFO]       Sleep Delay: 2.53s
+2026-07-24 05:39:04,652 [INFO]   [-] ALREADY CLAIMED | Player ID: 221630710 (Same Event Type)
+2026-07-24 05:39:04,653 [INFO]       Sleep Delay: 2.26s
+2026-07-24 05:39:07,220 [INFO]   [-] ALREADY CLAIMED | Player ID: 207281088 (Same Event Type)
+2026-07-24 05:39:07,221 [INFO]       Sleep Delay: 2.71s
+2026-07-24 05:39:10,291 [INFO]   [-] ALREADY CLAIMED | Player ID: 192275638 (Same Event Type)
+2026-07-24 05:39:10,291 [INFO]       Sleep Delay: 2.98s
+2026-07-24 05:39:13,613 [INFO]   [-] ALREADY CLAIMED | Player ID: 198153961 (Same Event Type)
+2026-07-24 05:39:13,613 [INFO]       Sleep Delay: 2.4s
+2026-07-24 05:39:16,327 [INFO]   [-] ALREADY CLAIMED | Player ID: 206052445 (Same Event Type)
+2026-07-24 05:39:16,328 [INFO]       Sleep Delay: 2.88s
+2026-07-24 05:39:19,525 [INFO]   [-] ALREADY CLAIMED | Player ID: 288526153 (Same Event Type)
+2026-07-24 05:39:19,526 [INFO]       Sleep Delay: 2.01s
+2026-07-24 05:39:21,847 [INFO]   [-] ALREADY CLAIMED | Player ID: 236945509 (Same Event Type)
+2026-07-24 05:39:21,848 [INFO]       Sleep Delay: 2.59s
+2026-07-24 05:39:24,753 [INFO]   [-] ALREADY CLAIMED | Player ID: 194344232 (Same Event Type)
+2026-07-24 05:39:24,754 [INFO]       Sleep Delay: 2.1s
+2026-07-24 05:39:27,170 [INFO]   [-] ALREADY CLAIMED | Player ID: 178860721 (Same Event Type)
+2026-07-24 05:39:27,170 [INFO]       Sleep Delay: 2.16s
+2026-07-24 05:39:29,656 [INFO]   [-] ALREADY CLAIMED | Player ID: 252053499 (Same Event Type)
+2026-07-24 05:39:29,657 [INFO]       Sleep Delay: 2.85s
+2026-07-24 05:39:32,820 [INFO]   [-] ALREADY CLAIMED | Player ID: 178259965 (Same Event Type)
+2026-07-24 05:39:32,821 [INFO]       Sleep Delay: 2.92s
+2026-07-24 05:39:36,035 [INFO]   [-] ALREADY CLAIMED | Player ID: 232920331 (Same Event Type)
+2026-07-24 05:39:36,036 [INFO]       Sleep Delay: 2.66s
+2026-07-24 05:39:38,992 [INFO]   [-] ALREADY CLAIMED | Player ID: 221862687 (Same Event Type)
+2026-07-24 05:39:38,992 [INFO]       Sleep Delay: 2.99s
+2026-07-24 05:39:42,322 [INFO]   [-] ALREADY CLAIMED | Player ID: 199530391 (Same Event Type)
+2026-07-24 05:39:42,323 [INFO]       Sleep Delay: 2.39s
+2026-07-24 05:39:45,027 [INFO]   [-] ALREADY CLAIMED | Player ID: 207493182 (Same Event Type)
+2026-07-24 05:39:45,027 [INFO]       Sleep Delay: 2.68s
+2026-07-24 05:39:47,997 [INFO]   [-] ALREADY CLAIMED | Player ID: 181758388 (Same Event Type)
+2026-07-24 05:39:47,997 [INFO]       Sleep Delay: 2.77s
+2026-07-24 05:39:51,083 [INFO]   [-] ALREADY CLAIMED | Player ID: 262635853 (Same Event Type)
+2026-07-24 05:39:51,083 [INFO]       Sleep Delay: 2.57s
+2026-07-24 05:39:53,969 [INFO]   [-] ALREADY CLAIMED | Player ID: 197220451 (Same Event Type)
+2026-07-24 05:39:53,970 [INFO]       Sleep Delay: 2.53s
+2026-07-24 05:39:56,806 [INFO]   [-] ALREADY CLAIMED | Player ID: 270999856 (Same Event Type)
+2026-07-24 05:39:56,807 [INFO]       Sleep Delay: 2.18s
+2026-07-24 05:39:59,300 [INFO]   [-] ALREADY CLAIMED | Player ID: 287993718 (Same Event Type)
+2026-07-24 05:39:59,301 [INFO]       Sleep Delay: 2.76s
+2026-07-24 05:40:02,358 [INFO]   [-] ALREADY CLAIMED | Player ID: 179303271 (Same Event Type)
+2026-07-24 05:40:02,358 [INFO]       Sleep Delay: 2.4s
+2026-07-24 05:40:05,082 [INFO]   [-] ALREADY CLAIMED | Player ID: 248790551 (Same Event Type)
+2026-07-24 05:40:05,083 [INFO]       Sleep Delay: 2.38s
+2026-07-24 05:40:07,788 [INFO]   [-] ALREADY CLAIMED | Player ID: 204168351 (Same Event Type)
+2026-07-24 05:40:07,788 [INFO]       Sleep Delay: 2.24s
+2026-07-24 05:40:10,337 [INFO]   [-] ALREADY CLAIMED | Player ID: 230281501 (Same Event Type)
+2026-07-24 05:40:10,338 [INFO]       Sleep Delay: 2.56s
+2026-07-24 05:40:13,195 [INFO]   [-] ALREADY CLAIMED | Player ID: 236856728 (Same Event Type)
+2026-07-24 05:40:13,195 [INFO]       Sleep Delay: 2.4s
+2026-07-24 05:40:15,917 [INFO]   [-] ALREADY CLAIMED | Player ID: 243858391 (Same Event Type)
+2026-07-24 05:40:15,918 [INFO]       Sleep Delay: 2.07s
+2026-07-24 05:40:18,333 [INFO]   [-] ALREADY CLAIMED | Player ID: 795242762 (Same Event Type)
+2026-07-24 05:40:18,333 [INFO]       Sleep Delay: 2.52s
+2026-07-24 05:40:21,140 [INFO]   [-] ALREADY CLAIMED | Player ID: 233666803 (Same Event Type)
+2026-07-24 05:40:21,140 [INFO]       Sleep Delay: 2.05s
+2026-07-24 05:40:23,517 [INFO]   [-] ALREADY CLAIMED | Player ID: 778241028 (Same Event Type)
+2026-07-24 05:40:23,518 [INFO]       Sleep Delay: 2.6s
+2026-07-24 05:40:26,414 [INFO]   [-] ALREADY CLAIMED | Player ID: 386028579 (Same Event Type)
+2026-07-24 05:40:26,415 [INFO]       Sleep Delay: 2.54s
+2026-07-24 05:40:29,269 [INFO]   [-] ALREADY CLAIMED | Player ID: 272536116 (Same Event Type)
+2026-07-24 05:40:29,269 [INFO]       Sleep Delay: 2.46s
+2026-07-24 05:40:32,112 [INFO]   [-] ALREADY CLAIMED | Player ID: 189717993 (Same Event Type)
+2026-07-24 05:40:32,112 [INFO]       Sleep Delay: 2.81s
+2026-07-24 05:40:35,241 [INFO]   [-] ALREADY CLAIMED | Player ID: 186986048 (Same Event Type)
+2026-07-24 05:40:35,241 [INFO]       Sleep Delay: 2.48s
+2026-07-24 05:40:38,045 [INFO]   [-] ALREADY CLAIMED | Player ID: 147982644 (Same Event Type)
+2026-07-24 05:40:38,045 [INFO]       Sleep Delay: 2.62s
+2026-07-24 05:40:40,964 [INFO]   [-] ALREADY CLAIMED | Player ID: 178615267 (Same Event Type)
+2026-07-24 05:40:40,965 [INFO]       Sleep Delay: 2.5s
+2026-07-24 05:40:43,969 [INFO]   [-] ALREADY CLAIMED | Player ID: 475281320 (Same Event Type)
+2026-07-24 05:40:43,970 [INFO]       Sleep Delay: 2.4s
+2026-07-24 05:40:46,705 [INFO]   [-] ALREADY CLAIMED | Player ID: 711972452 (Same Event Type)
+2026-07-24 05:40:46,705 [INFO]       Sleep Delay: 2.19s
+2026-07-24 05:40:49,211 [INFO]   [-] ALREADY CLAIMED | Player ID: 711987337 (Same Event Type)
+2026-07-24 05:40:49,212 [INFO]       Sleep Delay: 2.78s
+2026-07-24 05:40:52,323 [INFO]   [-] ALREADY CLAIMED | Player ID: 708955382 (Same Event Type)
+2026-07-24 05:40:52,324 [INFO]       Sleep Delay: 2.31s
+2026-07-24 05:40:54,917 [INFO]   [-] ALREADY CLAIMED | Player ID: 199211027 (Same Event Type)
+2026-07-24 05:40:54,918 [INFO]       Sleep Delay: 2.02s
+2026-07-24 05:40:56,940 [INFO] --- Code: 'gogoWOS' ---
+2026-07-24 05:40:57,300 [INFO]   [-] ALREADY CLAIMED | Player ID: 206258850 (Same Event Type)
+2026-07-24 05:40:57,300 [INFO]       Sleep Delay: 2.03s
+2026-07-24 05:40:59,645 [INFO]   [-] ALREADY CLAIMED | Player ID: 178680408 (Same Event Type)
+2026-07-24 05:40:59,646 [INFO]       Sleep Delay: 2.46s
+2026-07-24 05:41:02,428 [INFO]   [-] ALREADY CLAIMED | Player ID: 197646356 (Same Event Type)
+2026-07-24 05:41:02,429 [INFO]       Sleep Delay: 2.34s
+2026-07-24 05:41:05,101 [INFO]   [-] ALREADY CLAIMED | Player ID: 190841885 (Same Event Type)
+2026-07-24 05:41:05,102 [INFO]       Sleep Delay: 2.93s
+2026-07-24 05:41:08,367 [INFO]   [-] ALREADY CLAIMED | Player ID: 198841815 (Same Event Type)
+2026-07-24 05:41:08,368 [INFO]       Sleep Delay: 2.53s
+2026-07-24 05:41:11,249 [INFO]   [-] ALREADY CLAIMED | Player ID: 200398539 (Same Event Type)
+2026-07-24 05:41:11,250 [INFO]       Sleep Delay: 2.41s
+2026-07-24 05:41:13,995 [INFO]   [-] ALREADY CLAIMED | Player ID: 233533445 (Same Event Type)
+2026-07-24 05:41:13,996 [INFO]       Sleep Delay: 2.32s
+2026-07-24 05:41:16,620 [INFO]   [-] ALREADY CLAIMED | Player ID: 179712561 (Same Event Type)
+2026-07-24 05:41:16,621 [INFO]       Sleep Delay: 2.34s
+2026-07-24 05:41:19,274 [INFO]   [-] ALREADY CLAIMED | Player ID: 248462897 (Same Event Type)
+2026-07-24 05:41:19,275 [INFO]       Sleep Delay: 2.21s
+2026-07-24 05:41:21,895 [INFO]   [-] ALREADY CLAIMED | Player ID: 179286900 (Same Event Type)
+2026-07-24 05:41:21,896 [INFO]       Sleep Delay: 2.5s
+2026-07-24 05:41:24,705 [INFO]   [-] ALREADY CLAIMED | Player ID: 138961481 (Same Event Type)
+2026-07-24 05:41:24,705 [INFO]       Sleep Delay: 2.62s
+2026-07-24 05:41:27,693 [INFO]   [-] ALREADY CLAIMED | Player ID: 197138068 (Same Event Type)
+2026-07-24 05:41:27,693 [INFO]       Sleep Delay: 2.57s
+2026-07-24 05:41:30,586 [INFO]   [-] ALREADY CLAIMED | Player ID: 215505556 (Same Event Type)
+2026-07-24 05:41:30,587 [INFO]       Sleep Delay: 2.82s
+2026-07-24 05:41:33,744 [INFO]   [-] ALREADY CLAIMED | Player ID: 191206910 (Same Event Type)
+2026-07-24 05:41:33,744 [INFO]       Sleep Delay: 2.78s
+2026-07-24 05:41:36,928 [INFO]   [-] ALREADY CLAIMED | Player ID: 321386187 (Same Event Type)
+2026-07-24 05:41:36,929 [INFO]       Sleep Delay: 2.03s
+2026-07-24 05:41:39,320 [INFO]   [-] ALREADY CLAIMED | Player ID: 206396393 (Same Event Type)
+2026-07-24 05:41:39,321 [INFO]       Sleep Delay: 2.96s
+2026-07-24 05:41:42,658 [INFO]   [-] ALREADY CLAIMED | Player ID: 199841828 (Same Event Type)
+2026-07-24 05:41:42,659 [INFO]       Sleep Delay: 2.48s
+2026-07-24 05:41:45,529 [INFO]   [-] ALREADY CLAIMED | Player ID: 181956502 (Same Event Type)
+2026-07-24 05:41:45,529 [INFO]       Sleep Delay: 2.57s
+2026-07-24 05:41:48,415 [INFO]   [-] ALREADY CLAIMED | Player ID: 215135464 (Same Event Type)
+2026-07-24 05:41:48,415 [INFO]       Sleep Delay: 2.07s
+2026-07-24 05:41:50,785 [INFO]   [-] ALREADY CLAIMED | Player ID: 221630710 (Same Event Type)
+2026-07-24 05:41:50,785 [INFO]       Sleep Delay: 2.85s
+2026-07-24 05:41:53,991 [INFO]   [-] ALREADY CLAIMED | Player ID: 207281088 (Same Event Type)
+2026-07-24 05:41:53,991 [INFO]       Sleep Delay: 2.43s
+2026-07-24 05:41:56,819 [INFO]   [-] ALREADY CLAIMED | Player ID: 192275638 (Same Event Type)
+2026-07-24 05:41:56,820 [INFO]       Sleep Delay: 2.94s
+2026-07-24 05:42:00,089 [INFO]   [-] ALREADY CLAIMED | Player ID: 198153961 (Same Event Type)
+2026-07-24 05:42:00,090 [INFO]       Sleep Delay: 2.55s
+2026-07-24 05:42:02,974 [INFO]   [-] ALREADY CLAIMED | Player ID: 206052445 (Same Event Type)
+2026-07-24 05:42:02,974 [INFO]       Sleep Delay: 2.66s
+2026-07-24 05:42:05,984 [INFO]   [-] ALREADY CLAIMED | Player ID: 288526153 (Same Event Type)
+2026-07-24 05:42:05,984 [INFO]       Sleep Delay: 2.52s
+2026-07-24 05:42:08,848 [INFO]   [-] ALREADY CLAIMED | Player ID: 236945509 (Same Event Type)
+2026-07-24 05:42:08,849 [INFO]       Sleep Delay: 2.55s
+2026-07-24 05:42:11,774 [INFO]   [-] ALREADY CLAIMED | Player ID: 194344232 (Same Event Type)
+2026-07-24 05:42:11,774 [INFO]       Sleep Delay: 2.74s
+2026-07-24 05:42:14,840 [INFO]   [-] ALREADY CLAIMED | Player ID: 178860721 (Same Event Type)
+2026-07-24 05:42:14,840 [INFO]       Sleep Delay: 2.87s
+2026-07-24 05:42:18,024 [INFO]   [-] ALREADY CLAIMED | Player ID: 252053499 (Same Event Type)
+2026-07-24 05:42:18,025 [INFO]       Sleep Delay: 2.5s
+2026-07-24 05:42:20,905 [INFO]   [-] ALREADY CLAIMED | Player ID: 178259965 (Same Event Type)
+2026-07-24 05:42:20,906 [INFO]       Sleep Delay: 2.25s
+2026-07-24 05:42:23,478 [INFO]   [-] ALREADY CLAIMED | Player ID: 232920331 (Same Event Type)
+2026-07-24 05:42:23,478 [INFO]       Sleep Delay: 2.07s
+2026-07-24 05:42:25,953 [INFO]   [-] ALREADY CLAIMED | Player ID: 221862687 (Same Event Type)
+2026-07-24 05:42:25,954 [INFO]       Sleep Delay: 2.38s
+2026-07-24 05:42:28,682 [INFO]   [-] ALREADY CLAIMED | Player ID: 199530391 (Same Event Type)
+2026-07-24 05:42:28,683 [INFO]       Sleep Delay: 2.65s
+2026-07-24 05:42:31,656 [INFO]   [-] ALREADY CLAIMED | Player ID: 207493182 (Same Event Type)
+2026-07-24 05:42:31,656 [INFO]       Sleep Delay: 2.68s
+2026-07-24 05:42:34,708 [INFO]   [-] ALREADY CLAIMED | Player ID: 181758388 (Same Event Type)
+2026-07-24 05:42:34,709 [INFO]       Sleep Delay: 2.22s
+2026-07-24 05:42:37,310 [INFO]   [-] ALREADY CLAIMED | Player ID: 262635853 (Same Event Type)
+2026-07-24 05:42:37,311 [INFO]       Sleep Delay: 2.87s
+2026-07-24 05:42:40,544 [INFO]   [-] ALREADY CLAIMED | Player ID: 197220451 (Same Event Type)
+2026-07-24 05:42:40,545 [INFO]       Sleep Delay: 2.01s
+2026-07-24 05:42:42,899 [INFO]   [-] ALREADY CLAIMED | Player ID: 270999856 (Same Event Type)
+2026-07-24 05:42:42,900 [INFO]       Sleep Delay: 2.46s
+2026-07-24 05:42:45,762 [INFO]   [-] ALREADY CLAIMED | Player ID: 287993718 (Same Event Type)
+2026-07-24 05:42:45,763 [INFO]       Sleep Delay: 2.68s
+2026-07-24 05:42:48,799 [INFO]   [-] ALREADY CLAIMED | Player ID: 179303271 (Same Event Type)
+2026-07-24 05:42:48,800 [INFO]       Sleep Delay: 2.15s
+2026-07-24 05:42:51,282 [INFO]   [-] ALREADY CLAIMED | Player ID: 248790551 (Same Event Type)
+2026-07-24 05:42:51,283 [INFO]       Sleep Delay: 2.15s
+2026-07-24 05:42:53,749 [INFO]   [-] ALREADY CLAIMED | Player ID: 204168351 (Same Event Type)
+2026-07-24 05:42:53,750 [INFO]       Sleep Delay: 2.61s
+2026-07-24 05:42:56,777 [INFO]   [-] ALREADY CLAIMED | Player ID: 230281501 (Same Event Type)
+2026-07-24 05:42:56,778 [INFO]       Sleep Delay: 2.53s
+2026-07-24 05:42:59,636 [INFO]   [-] ALREADY CLAIMED | Player ID: 236856728 (Same Event Type)
+2026-07-24 05:42:59,636 [INFO]       Sleep Delay: 2.97s
+2026-07-24 05:43:02,925 [INFO]   [-] ALREADY CLAIMED | Player ID: 243858391 (Same Event Type)
+2026-07-24 05:43:02,926 [INFO]       Sleep Delay: 2.44s
+2026-07-24 05:43:05,721 [INFO]   [-] ALREADY CLAIMED | Player ID: 795242762 (Same Event Type)
+2026-07-24 05:43:05,722 [INFO]       Sleep Delay: 2.4s
+2026-07-24 05:43:08,432 [INFO]   [-] ALREADY CLAIMED | Player ID: 233666803 (Same Event Type)
+2026-07-24 05:43:08,433 [INFO]       Sleep Delay: 2.18s
+2026-07-24 05:43:10,929 [INFO]   [-] ALREADY CLAIMED | Player ID: 778241028 (Same Event Type)
+2026-07-24 05:43:10,929 [INFO]       Sleep Delay: 2.3s
+2026-07-24 05:43:13,538 [INFO]   [-] ALREADY CLAIMED | Player ID: 386028579 (Same Event Type)
+2026-07-24 05:43:13,539 [INFO]       Sleep Delay: 2.15s
+2026-07-24 05:43:16,104 [INFO]   [-] ALREADY CLAIMED | Player ID: 272536116 (Same Event Type)
+2026-07-24 05:43:16,105 [INFO]       Sleep Delay: 2.41s
+2026-07-24 05:43:18,892 [INFO]   [-] ALREADY CLAIMED | Player ID: 189717993 (Same Event Type)
+2026-07-24 05:43:18,893 [INFO]       Sleep Delay: 2.55s
+2026-07-24 05:43:21,760 [INFO]   [-] ALREADY CLAIMED | Player ID: 186986048 (Same Event Type)
+2026-07-24 05:43:21,761 [INFO]       Sleep Delay: 2.36s
+2026-07-24 05:43:24,469 [INFO]   [-] ALREADY CLAIMED | Player ID: 147982644 (Same Event Type)
+2026-07-24 05:43:24,470 [INFO]       Sleep Delay: 2.55s
+2026-07-24 05:43:27,336 [INFO]   [-] ALREADY CLAIMED | Player ID: 178615267 (Same Event Type)
+2026-07-24 05:43:27,337 [INFO]       Sleep Delay: 2.76s
+2026-07-24 05:43:30,452 [INFO]   [-] ALREADY CLAIMED | Player ID: 475281320 (Same Event Type)
+2026-07-24 05:43:30,452 [INFO]       Sleep Delay: 2.63s
+2026-07-24 05:43:33,430 [INFO]   [-] ALREADY CLAIMED | Player ID: 711972452 (Same Event Type)
+2026-07-24 05:43:33,431 [INFO]       Sleep Delay: 2.45s
+2026-07-24 05:43:36,224 [INFO]   [-] ALREADY CLAIMED | Player ID: 711987337 (Same Event Type)
+2026-07-24 05:43:36,224 [INFO]       Sleep Delay: 2.59s
+2026-07-24 05:43:39,139 [INFO]   [-] ALREADY CLAIMED | Player ID: 708955382 (Same Event Type)
+2026-07-24 05:43:39,139 [INFO]       Sleep Delay: 2.32s
+2026-07-24 05:43:41,844 [INFO]   [-] ALREADY CLAIMED | Player ID: 199211027 (Same Event Type)
+2026-07-24 05:43:41,845 [INFO]       Sleep Delay: 2.3s
+2026-07-24 05:43:44,147 [INFO] ==========================================
+2026-07-24 05:43:44,148 [INFO]          REDEMPTION SUMMARY REPORT        
+2026-07-24 05:43:44,148 [INFO] ==========================================
+2026-07-24 05:43:44,148 [INFO]   [✓] Newly Redeemed         : 1
+2026-07-24 05:43:44,148 [INFO]   [-] Already Claimed (API)  : 176
+2026-07-24 05:43:44,148 [INFO]   [⏩] Skipped (Local Memory) : 0
+2026-07-24 05:43:44,148 [INFO]   [!] Expired Codes           : 2
+2026-07-24 05:43:44,148 [INFO]   [✗] Failed Requests         : 0
+2026-07-24 05:43:44,148 [INFO] ------------------------------------------
+2026-07-24 05:43:44,148 [INFO]   TOTAL SUCCESSFUL / CLAIMED : 177 / 179
+2026-07-24 05:43:44,148 [INFO] ==========================================
+
