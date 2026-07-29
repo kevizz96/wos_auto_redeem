@@ -189,8 +189,19 @@ def batch_redeem(accounts: list, gift_codes: list):
                             history["expired_codes"].append(cdk)
                             save_history(history)
                         break
+
+                    # 4. API Server "TIMEOUT RETRY" Response -> Retry!
+                    elif "TIMEOUT RETRY" in msg or "TRY AGAIN" in msg:
+                        if attempt < MAX_RETRIES:
+                            log_and_print(f"  [⏳] API TIMEOUT RETRY | Player ID: {fid} -> Server requested retry. Retrying... ({attempt + 1}/{MAX_RETRIES})...", level="warning")
+                            time.sleep(2)
+                            continue
+                        else:
+                            log_and_print(f"  [✗] FAILED (TIMEOUT)  | Player ID: {fid} -> Server TIMEOUT RETRY exhausted retries", level="error")
+                            stats["failed"] += 1
+                            break
                         
-                    # 4. Failures
+                    # 5. Other Failures
                     else:
                         log_and_print(f"  [✗] FAILED         | Player ID: {fid} -> {data.get('msg', data)}", level="error")
                         stats["failed"] += 1
@@ -198,7 +209,7 @@ def batch_redeem(accounts: list, gift_codes: list):
 
                 except (requests.exceptions.Timeout, requests.exceptions.RequestException) as e:
                     if attempt < MAX_RETRIES:
-                        log_and_print(f"  [⏳] TIMEOUT/ERROR   | Player ID: {fid} -> Retrying... ({attempt + 1}/{MAX_RETRIES})", level="warning")
+                        log_and_print(f"  [⏳] HTTP TIMEOUT   | Player ID: {fid} -> Network error. Retrying... ({attempt + 1}/{MAX_RETRIES})...", level="warning")
                         time.sleep(2)
                     else:
                         log_and_print(f"  [✗] FAILED (TIMEOUT) | Player ID: {fid} -> Exhausted retries", level="error")
