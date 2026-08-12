@@ -20,7 +20,7 @@ logging.basicConfig(
 API_URL = "https://wos-giftcode-api.centurygame.com/api/gift_code"
 SALT = "tB87#kPtkxqOS2"
 HISTORY_FILE = "redemption_history.json"
-MAX_RETRIES = 2
+MAX_RETRIES = 3  # Bumped slightly to allow backoff steps (e.g., 2s, 4s, 8s)
 
 # Google Sheet Configuration
 SHEET_ID = "1ykHBJWvJNEpOYg-D4W8CDTjPs-gYvQ89cp9FPj8FNfQ"
@@ -43,6 +43,17 @@ def log_and_print(msg: str, level: str = "info"):
         logging.error(msg)
     else:
         logging.info(msg)
+
+def calculate_backoff(attempt: int, base_delay: float = 2.0) -> float:
+    """Calculates exponential backoff delay with random jitter.
+    Formula: (base_delay * 2^attempt) + jitter
+    Attempt 0 -> ~2.0s - 2.5s
+    Attempt 1 -> ~4.0s - 4.5s
+    Attempt 2 -> ~8.0s - 8.5s
+    """
+    backoff = base_delay * (2 ** attempt)
+    jitter = random.uniform(0.1, 0.5)
+    return round(backoff + jitter, 2)
 
 def load_accounts_from_sheet(csv_url: str) -> list:
     """Fetches account list directly from the 'player_ids' tab and deduplicates Player IDs."""
@@ -190,11 +201,12 @@ def batch_redeem(accounts: list, gift_codes: list):
                             save_history(history)
                         break
 
-                    # 4. API Server "TIMEOUT RETRY" Response -> Retry!
+                    # 4. API Server "TIMEOUT RETRY" Response -> Exponential Backoff
                     elif "TIMEOUT RETRY" in msg or "TRY AGAIN" in msg:
                         if attempt < MAX_RETRIES:
-                            log_and_print(f"  [⏳] API TIMEOUT RETRY | Player ID: {fid} -> Server requested retry. Retrying... ({attempt + 1}/{MAX_RETRIES})...", level="warning")
-                            time.sleep(2)
+                            wait_time = calculate_backoff(attempt)
+                            log_and_print(f"  [⏳] API TIMEOUT RETRY | Player ID: {fid} -> Server requested retry. Backoff {wait_time}s ({attempt + 1}/{MAX_RETRIES})...", level="warning")
+                            time.sleep(wait_time)
                             continue
                         else:
                             log_and_print(f"  [✗] FAILED (TIMEOUT)  | Player ID: {fid} -> Server TIMEOUT RETRY exhausted retries", level="error")
@@ -209,8 +221,9 @@ def batch_redeem(accounts: list, gift_codes: list):
 
                 except (requests.exceptions.Timeout, requests.exceptions.RequestException) as e:
                     if attempt < MAX_RETRIES:
-                        log_and_print(f"  [⏳] HTTP TIMEOUT   | Player ID: {fid} -> Network error. Retrying... ({attempt + 1}/{MAX_RETRIES})...", level="warning")
-                        time.sleep(2)
+                        wait_time = calculate_backoff(attempt)
+                        log_and_print(f"  [⏳] HTTP TIMEOUT   | Player ID: {fid} -> Network error. Backoff {wait_time}s ({attempt + 1}/{MAX_RETRIES})...", level="warning")
+                        time.sleep(wait_time)
                     else:
                         log_and_print(f"  [✗] FAILED (TIMEOUT) | Player ID: {fid} -> Exhausted retries", level="error")
                         stats["failed"] += 1
