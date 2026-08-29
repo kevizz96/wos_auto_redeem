@@ -24462,3 +24462,8 @@
   TOTAL SUCCESSFUL / CLAIMED : 272 / 476
 ==========================================
 
+2026-08-29 23:48:00,331 [INFO] ::group::Fetching Gift Codes from Google Sheet (tab: g_codes)
+2026-08-29 23:48:01,136 [INFO] [✓] Successfully loaded 7 codes from 'g_codes'.
+2026-08-29 23:48:01,137 [INFO] ::group::Fetching Accounts from Google Sheet (tab: player_ids)
+2026-08-29 23:48:11,174 [ERROR] [!] Error fetching accounts from Google Sheet: HTTPSConnectionPool(host='docs.google.com', port=443): Read timed out. (read timeout=10)
+2026-08-29 23:48:11,174 [WARNING] [!] No accounts or gift codes provided. Aborting execution.
