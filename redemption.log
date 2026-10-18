@@ -42480,3 +42480,295 @@
   TOTAL SUCCESSFUL / CLAIMED : 258 / 416
 ==========================================
 
+2026-10-18 06:34:38,468 [INFO] ::group::Fetching Gift Codes from Google Sheet (tab: g_codes)
+2026-10-18 06:34:38,933 [INFO] [✓] Successfully loaded 7 codes from 'g_codes'.
+2026-10-18 06:34:38,934 [INFO] ::group::Fetching Accounts from Google Sheet (tab: player_ids)
+2026-10-18 06:34:39,131 [INFO] [✓] Loaded 52 UNIQUE Player IDs (Processed 52 total rows, skipped 0 duplicates).
+2026-10-18 06:34:39,132 [INFO] === Starting Batch Redemption Run ===
+2026-10-18 06:34:39,132 [INFO] Target Accounts  : 52 Unique Player IDs
+2026-10-18 06:34:39,132 [INFO] History Memory   : 69 Unique Player IDs recorded
+
+2026-10-18 06:34:39,132 [INFO] --- Code: '2ndYoutubeKR' ---
+2026-10-18 06:34:39,132 [INFO]   [⏩] SKIPPED         | Player ID: 206258850 (Already in history)
+2026-10-18 06:34:39,132 [INFO]   [⏩] SKIPPED         | Player ID: 178680408 (Already in history)
+2026-10-18 06:34:39,132 [INFO]   [⏩] SKIPPED         | Player ID: 197646356 (Already in history)
+2026-10-18 06:34:39,132 [INFO]   [⏩] SKIPPED         | Player ID: 190841885 (Already in history)
+2026-10-18 06:34:39,132 [INFO]   [⏩] SKIPPED         | Player ID: 198841815 (Already in history)
+2026-10-18 06:34:39,132 [INFO]   [⏩] SKIPPED         | Player ID: 200398539 (Already in history)
+2026-10-18 06:34:39,132 [INFO]   [⏩] SKIPPED         | Player ID: 233533445 (Already in history)
+2026-10-18 06:34:39,132 [INFO]   [⏩] SKIPPED         | Player ID: 179712561 (Already in history)
+2026-10-18 06:34:39,132 [INFO]   [⏩] SKIPPED         | Player ID: 248462897 (Already in history)
+2026-10-18 06:34:39,132 [INFO]   [⏩] SKIPPED         | Player ID: 179286900 (Already in history)
+2026-10-18 06:34:39,132 [INFO]   [⏩] SKIPPED         | Player ID: 138961481 (Already in history)
+2026-10-18 06:34:39,132 [INFO]   [⏩] SKIPPED         | Player ID: 215505556 (Already in history)
+2026-10-18 06:34:39,132 [INFO]   [⏩] SKIPPED         | Player ID: 191206910 (Already in history)
+2026-10-18 06:34:39,132 [INFO]   [⏩] SKIPPED         | Player ID: 206396393 (Already in history)
+2026-10-18 06:34:39,132 [INFO]   [⏩] SKIPPED         | Player ID: 199841828 (Already in history)
+2026-10-18 06:34:39,132 [INFO]   [⏩] SKIPPED         | Player ID: 181956502 (Already in history)
+2026-10-18 06:34:39,132 [INFO]   [⏩] SKIPPED         | Player ID: 215135464 (Already in history)
+2026-10-18 06:34:39,132 [INFO]   [⏩] SKIPPED         | Player ID: 221630710 (Already in history)
+2026-10-18 06:34:39,132 [INFO]   [⏩] SKIPPED         | Player ID: 198153961 (Already in history)
+2026-10-18 06:34:39,132 [INFO]   [⏩] SKIPPED         | Player ID: 206052445 (Already in history)
+2026-10-18 06:34:39,132 [INFO]   [⏩] SKIPPED         | Player ID: 288526153 (Already in history)
+2026-10-18 06:34:39,132 [INFO]   [⏩] SKIPPED         | Player ID: 236945509 (Already in history)
+2026-10-18 06:34:39,132 [INFO]   [⏩] SKIPPED         | Player ID: 194344232 (Already in history)
+2026-10-18 06:34:39,132 [INFO]   [⏩] SKIPPED         | Player ID: 178860721 (Already in history)
+2026-10-18 06:34:39,132 [INFO]   [⏩] SKIPPED         | Player ID: 252053499 (Already in history)
+2026-10-18 06:34:39,133 [INFO]   [⏩] SKIPPED         | Player ID: 178259965 (Already in history)
+2026-10-18 06:34:39,133 [INFO]   [⏩] SKIPPED         | Player ID: 232920331 (Already in history)
+2026-10-18 06:34:39,133 [INFO]   [⏩] SKIPPED         | Player ID: 221862687 (Already in history)
+2026-10-18 06:34:39,133 [INFO]   [⏩] SKIPPED         | Player ID: 199530391 (Already in history)
+2026-10-18 06:34:39,133 [INFO]   [⏩] SKIPPED         | Player ID: 207493182 (Already in history)
+2026-10-18 06:34:39,133 [INFO]   [⏩] SKIPPED         | Player ID: 181758388 (Already in history)
+2026-10-18 06:34:39,133 [INFO]   [⏩] SKIPPED         | Player ID: 197220451 (Already in history)
+2026-10-18 06:34:39,133 [INFO]   [⏩] SKIPPED         | Player ID: 270999856 (Already in history)
+2026-10-18 06:34:39,133 [INFO]   [⏩] SKIPPED         | Player ID: 179303271 (Already in history)
+2026-10-18 06:34:39,133 [INFO]   [⏩] SKIPPED         | Player ID: 230281501 (Already in history)
+2026-10-18 06:34:39,133 [INFO]   [⏩] SKIPPED         | Player ID: 236856728 (Already in history)
+2026-10-18 06:34:39,133 [INFO]   [⏩] SKIPPED         | Player ID: 243858391 (Already in history)
+2026-10-18 06:34:39,133 [INFO]   [⏩] SKIPPED         | Player ID: 233666803 (Already in history)
+2026-10-18 06:34:39,133 [INFO]   [⏩] SKIPPED         | Player ID: 147982644 (Already in history)
+2026-10-18 06:34:39,133 [INFO]   [⏩] SKIPPED         | Player ID: 178615267 (Already in history)
+2026-10-18 06:34:39,133 [INFO]   [⏩] SKIPPED         | Player ID: 711972452 (Already in history)
+2026-10-18 06:34:39,133 [INFO]   [⏩] SKIPPED         | Player ID: 711987337 (Already in history)
+2026-10-18 06:34:39,133 [INFO]   [⏩] SKIPPED         | Player ID: 708955382 (Already in history)
+2026-10-18 06:34:39,133 [INFO]   [⏩] SKIPPED         | Player ID: 164962541 (Already in history)
+2026-10-18 06:34:39,133 [INFO]   [⏩] SKIPPED         | Player ID: 359646774 (Already in history)
+2026-10-18 06:34:39,133 [INFO]   [⏩] SKIPPED         | Player ID: 191998452 (Already in history)
+2026-10-18 06:34:39,133 [INFO]   [⏩] SKIPPED         | Player ID: 651011180 (Already in history)
+2026-10-18 06:34:39,133 [INFO]   [⏩] SKIPPED         | Player ID: 221316395 (Already in history)
+2026-10-18 06:34:39,133 [INFO]   [⏩] SKIPPED         | Player ID: 199940192 (Already in history)
+2026-10-18 06:34:39,133 [INFO]   [⏩] SKIPPED         | Player ID: 746675875 (Already in history)
+2026-10-18 06:34:39,133 [INFO]   [⏩] SKIPPED         | Player ID: 253810329 (Already in history)
+2026-10-18 06:34:39,133 [INFO]   [⏩] SKIPPED         | Player ID: 189717993 (Already in history)
+2026-10-18 06:34:39,133 [INFO] --- Code: '1stYoutubeKR' ---
+2026-10-18 06:34:39,133 [INFO]   [⏩] SKIPPED         | Player ID: 206258850 (Already in history)
+2026-10-18 06:34:39,133 [INFO]   [⏩] SKIPPED         | Player ID: 178680408 (Already in history)
+2026-10-18 06:34:39,133 [INFO]   [⏩] SKIPPED         | Player ID: 197646356 (Already in history)
+2026-10-18 06:34:39,133 [INFO]   [⏩] SKIPPED         | Player ID: 190841885 (Already in history)
+2026-10-18 06:34:39,133 [INFO]   [⏩] SKIPPED         | Player ID: 198841815 (Already in history)
+2026-10-18 06:34:39,133 [INFO]   [⏩] SKIPPED         | Player ID: 200398539 (Already in history)
+2026-10-18 06:34:39,133 [INFO]   [⏩] SKIPPED         | Player ID: 233533445 (Already in history)
+2026-10-18 06:34:39,133 [INFO]   [⏩] SKIPPED         | Player ID: 179712561 (Already in history)
+2026-10-18 06:34:39,133 [INFO]   [⏩] SKIPPED         | Player ID: 248462897 (Already in history)
+2026-10-18 06:34:39,133 [INFO]   [⏩] SKIPPED         | Player ID: 179286900 (Already in history)
+2026-10-18 06:34:39,133 [INFO]   [⏩] SKIPPED         | Player ID: 138961481 (Already in history)
+2026-10-18 06:34:39,133 [INFO]   [⏩] SKIPPED         | Player ID: 215505556 (Already in history)
+2026-10-18 06:34:39,133 [INFO]   [⏩] SKIPPED         | Player ID: 191206910 (Already in history)
+2026-10-18 06:34:39,133 [INFO]   [⏩] SKIPPED         | Player ID: 206396393 (Already in history)
+2026-10-18 06:34:39,133 [INFO]   [⏩] SKIPPED         | Player ID: 199841828 (Already in history)
+2026-10-18 06:34:39,133 [INFO]   [⏩] SKIPPED         | Player ID: 181956502 (Already in history)
+2026-10-18 06:34:39,133 [INFO]   [⏩] SKIPPED         | Player ID: 215135464 (Already in history)
+2026-10-18 06:34:39,133 [INFO]   [⏩] SKIPPED         | Player ID: 221630710 (Already in history)
+2026-10-18 06:34:39,133 [INFO]   [⏩] SKIPPED         | Player ID: 198153961 (Already in history)
+2026-10-18 06:34:39,133 [INFO]   [⏩] SKIPPED         | Player ID: 206052445 (Already in history)
+2026-10-18 06:34:39,133 [INFO]   [⏩] SKIPPED         | Player ID: 288526153 (Already in history)
+2026-10-18 06:34:39,133 [INFO]   [⏩] SKIPPED         | Player ID: 236945509 (Already in history)
+2026-10-18 06:34:39,133 [INFO]   [⏩] SKIPPED         | Player ID: 194344232 (Already in history)
+2026-10-18 06:34:39,133 [INFO]   [⏩] SKIPPED         | Player ID: 178860721 (Already in history)
+2026-10-18 06:34:39,134 [INFO]   [⏩] SKIPPED         | Player ID: 252053499 (Already in history)
+2026-10-18 06:34:39,134 [INFO]   [⏩] SKIPPED         | Player ID: 178259965 (Already in history)
+2026-10-18 06:34:39,134 [INFO]   [⏩] SKIPPED         | Player ID: 232920331 (Already in history)
+2026-10-18 06:34:39,134 [INFO]   [⏩] SKIPPED         | Player ID: 221862687 (Already in history)
+2026-10-18 06:34:39,134 [INFO]   [⏩] SKIPPED         | Player ID: 199530391 (Already in history)
+2026-10-18 06:34:39,134 [INFO]   [⏩] SKIPPED         | Player ID: 207493182 (Already in history)
+2026-10-18 06:34:39,134 [INFO]   [⏩] SKIPPED         | Player ID: 181758388 (Already in history)
+2026-10-18 06:34:39,134 [INFO]   [⏩] SKIPPED         | Player ID: 197220451 (Already in history)
+2026-10-18 06:34:39,134 [INFO]   [⏩] SKIPPED         | Player ID: 270999856 (Already in history)
+2026-10-18 06:34:39,134 [INFO]   [⏩] SKIPPED         | Player ID: 179303271 (Already in history)
+2026-10-18 06:34:39,134 [INFO]   [⏩] SKIPPED         | Player ID: 230281501 (Already in history)
+2026-10-18 06:34:39,134 [INFO]   [⏩] SKIPPED         | Player ID: 236856728 (Already in history)
+2026-10-18 06:34:39,134 [INFO]   [⏩] SKIPPED         | Player ID: 243858391 (Already in history)
+2026-10-18 06:34:39,134 [INFO]   [⏩] SKIPPED         | Player ID: 233666803 (Already in history)
+2026-10-18 06:34:39,134 [INFO]   [⏩] SKIPPED         | Player ID: 147982644 (Already in history)
+2026-10-18 06:34:39,134 [INFO]   [⏩] SKIPPED         | Player ID: 178615267 (Already in history)
+2026-10-18 06:34:39,134 [INFO]   [⏩] SKIPPED         | Player ID: 711972452 (Already in history)
+2026-10-18 06:34:39,134 [INFO]   [⏩] SKIPPED         | Player ID: 711987337 (Already in history)
+2026-10-18 06:34:39,134 [INFO]   [⏩] SKIPPED         | Player ID: 708955382 (Already in history)
+2026-10-18 06:34:39,134 [INFO]   [⏩] SKIPPED         | Player ID: 164962541 (Already in history)
+2026-10-18 06:34:39,134 [INFO]   [⏩] SKIPPED         | Player ID: 359646774 (Already in history)
+2026-10-18 06:34:39,134 [INFO]   [⏩] SKIPPED         | Player ID: 191998452 (Already in history)
+2026-10-18 06:34:39,134 [INFO]   [⏩] SKIPPED         | Player ID: 651011180 (Already in history)
+2026-10-18 06:34:39,134 [INFO]   [⏩] SKIPPED         | Player ID: 221316395 (Already in history)
+2026-10-18 06:34:39,134 [INFO]   [⏩] SKIPPED         | Player ID: 199940192 (Already in history)
+2026-10-18 06:34:39,134 [INFO]   [⏩] SKIPPED         | Player ID: 746675875 (Already in history)
+2026-10-18 06:34:39,134 [INFO]   [⏩] SKIPPED         | Player ID: 253810329 (Already in history)
+2026-10-18 06:34:39,134 [INFO]   [⏩] SKIPPED         | Player ID: 189717993 (Already in history)
+2026-10-18 06:34:39,134 [INFO] --- Code: 'gogoWOS' ---
+2026-10-18 06:34:39,134 [INFO]   [⏩] SKIPPED         | Player ID: 206258850 (Already in history)
+2026-10-18 06:34:39,134 [INFO]   [⏩] SKIPPED         | Player ID: 178680408 (Already in history)
+2026-10-18 06:34:39,134 [INFO]   [⏩] SKIPPED         | Player ID: 197646356 (Already in history)
+2026-10-18 06:34:39,134 [INFO]   [⏩] SKIPPED         | Player ID: 190841885 (Already in history)
+2026-10-18 06:34:39,134 [INFO]   [⏩] SKIPPED         | Player ID: 198841815 (Already in history)
+2026-10-18 06:34:39,134 [INFO]   [⏩] SKIPPED         | Player ID: 200398539 (Already in history)
+2026-10-18 06:34:39,134 [INFO]   [⏩] SKIPPED         | Player ID: 233533445 (Already in history)
+2026-10-18 06:34:39,134 [INFO]   [⏩] SKIPPED         | Player ID: 179712561 (Already in history)
+2026-10-18 06:34:39,134 [INFO]   [⏩] SKIPPED         | Player ID: 248462897 (Already in history)
+2026-10-18 06:34:39,134 [INFO]   [⏩] SKIPPED         | Player ID: 179286900 (Already in history)
+2026-10-18 06:34:39,134 [INFO]   [⏩] SKIPPED         | Player ID: 138961481 (Already in history)
+2026-10-18 06:34:39,134 [INFO]   [⏩] SKIPPED         | Player ID: 215505556 (Already in history)
+2026-10-18 06:34:39,134 [INFO]   [⏩] SKIPPED         | Player ID: 191206910 (Already in history)
+2026-10-18 06:34:39,134 [INFO]   [⏩] SKIPPED         | Player ID: 206396393 (Already in history)
+2026-10-18 06:34:39,134 [INFO]   [⏩] SKIPPED         | Player ID: 199841828 (Already in history)
+2026-10-18 06:34:39,134 [INFO]   [⏩] SKIPPED         | Player ID: 181956502 (Already in history)
+2026-10-18 06:34:39,134 [INFO]   [⏩] SKIPPED         | Player ID: 215135464 (Already in history)
+2026-10-18 06:34:39,134 [INFO]   [⏩] SKIPPED         | Player ID: 221630710 (Already in history)
+2026-10-18 06:34:39,134 [INFO]   [⏩] SKIPPED         | Player ID: 198153961 (Already in history)
+2026-10-18 06:34:39,135 [INFO]   [⏩] SKIPPED         | Player ID: 206052445 (Already in history)
+2026-10-18 06:34:39,135 [INFO]   [⏩] SKIPPED         | Player ID: 288526153 (Already in history)
+2026-10-18 06:34:39,135 [INFO]   [⏩] SKIPPED         | Player ID: 236945509 (Already in history)
+2026-10-18 06:34:39,135 [INFO]   [⏩] SKIPPED         | Player ID: 194344232 (Already in history)
+2026-10-18 06:34:39,135 [INFO]   [⏩] SKIPPED         | Player ID: 178860721 (Already in history)
+2026-10-18 06:34:39,135 [INFO]   [⏩] SKIPPED         | Player ID: 252053499 (Already in history)
+2026-10-18 06:34:39,135 [INFO]   [⏩] SKIPPED         | Player ID: 178259965 (Already in history)
+2026-10-18 06:34:39,135 [INFO]   [⏩] SKIPPED         | Player ID: 232920331 (Already in history)
+2026-10-18 06:34:39,135 [INFO]   [⏩] SKIPPED         | Player ID: 221862687 (Already in history)
+2026-10-18 06:34:39,135 [INFO]   [⏩] SKIPPED         | Player ID: 199530391 (Already in history)
+2026-10-18 06:34:39,135 [INFO]   [⏩] SKIPPED         | Player ID: 207493182 (Already in history)
+2026-10-18 06:34:39,135 [INFO]   [⏩] SKIPPED         | Player ID: 181758388 (Already in history)
+2026-10-18 06:34:39,135 [INFO]   [⏩] SKIPPED         | Player ID: 197220451 (Already in history)
+2026-10-18 06:34:39,135 [INFO]   [⏩] SKIPPED         | Player ID: 270999856 (Already in history)
+2026-10-18 06:34:39,135 [INFO]   [⏩] SKIPPED         | Player ID: 179303271 (Already in history)
+2026-10-18 06:34:39,135 [INFO]   [⏩] SKIPPED         | Player ID: 230281501 (Already in history)
+2026-10-18 06:34:39,135 [INFO]   [⏩] SKIPPED         | Player ID: 236856728 (Already in history)
+2026-10-18 06:34:39,135 [INFO]   [⏩] SKIPPED         | Player ID: 243858391 (Already in history)
+2026-10-18 06:34:39,135 [INFO]   [⏩] SKIPPED         | Player ID: 233666803 (Already in history)
+2026-10-18 06:34:39,135 [INFO]   [⏩] SKIPPED         | Player ID: 147982644 (Already in history)
+2026-10-18 06:34:39,135 [INFO]   [⏩] SKIPPED         | Player ID: 178615267 (Already in history)
+2026-10-18 06:34:39,135 [INFO]   [⏩] SKIPPED         | Player ID: 711972452 (Already in history)
+2026-10-18 06:34:39,135 [INFO]   [⏩] SKIPPED         | Player ID: 711987337 (Already in history)
+2026-10-18 06:34:39,135 [INFO]   [⏩] SKIPPED         | Player ID: 708955382 (Already in history)
+2026-10-18 06:34:39,135 [INFO]   [⏩] SKIPPED         | Player ID: 164962541 (Already in history)
+2026-10-18 06:34:39,135 [INFO]   [⏩] SKIPPED         | Player ID: 359646774 (Already in history)
+2026-10-18 06:34:39,135 [INFO]   [⏩] SKIPPED         | Player ID: 191998452 (Already in history)
+2026-10-18 06:34:39,135 [INFO]   [⏩] SKIPPED         | Player ID: 651011180 (Already in history)
+2026-10-18 06:34:39,135 [INFO]   [⏩] SKIPPED         | Player ID: 221316395 (Already in history)
+2026-10-18 06:34:39,135 [INFO]   [⏩] SKIPPED         | Player ID: 199940192 (Already in history)
+2026-10-18 06:34:39,135 [INFO]   [⏩] SKIPPED         | Player ID: 746675875 (Already in history)
+2026-10-18 06:34:39,135 [INFO]   [⏩] SKIPPED         | Player ID: 253810329 (Already in history)
+2026-10-18 06:34:39,135 [INFO]   [⏩] SKIPPED         | Player ID: 189717993 (Already in history)
+2026-10-18 06:34:39,135 [INFO] --- Code: '100gomYTKOR' [SKIPPED: Marked as Expired in Memory] ---
+2026-10-18 06:34:39,135 [INFO] --- Code: 'GuDokYTKOR' ---
+2026-10-18 06:34:39,135 [INFO]   [⏩] SKIPPED         | Player ID: 206258850 (Already in history)
+2026-10-18 06:34:39,135 [INFO]   [⏩] SKIPPED         | Player ID: 178680408 (Already in history)
+2026-10-18 06:34:39,135 [INFO]   [⏩] SKIPPED         | Player ID: 197646356 (Already in history)
+2026-10-18 06:34:39,135 [INFO]   [⏩] SKIPPED         | Player ID: 190841885 (Already in history)
+2026-10-18 06:34:39,135 [INFO]   [⏩] SKIPPED         | Player ID: 198841815 (Already in history)
+2026-10-18 06:34:39,135 [INFO]   [⏩] SKIPPED         | Player ID: 200398539 (Already in history)
+2026-10-18 06:34:39,135 [INFO]   [⏩] SKIPPED         | Player ID: 233533445 (Already in history)
+2026-10-18 06:34:39,135 [INFO]   [⏩] SKIPPED         | Player ID: 179712561 (Already in history)
+2026-10-18 06:34:39,135 [INFO]   [⏩] SKIPPED         | Player ID: 248462897 (Already in history)
+2026-10-18 06:34:39,135 [INFO]   [⏩] SKIPPED         | Player ID: 179286900 (Already in history)
+2026-10-18 06:34:39,135 [INFO]   [⏩] SKIPPED         | Player ID: 138961481 (Already in history)
+2026-10-18 06:34:39,135 [INFO]   [⏩] SKIPPED         | Player ID: 215505556 (Already in history)
+2026-10-18 06:34:39,135 [INFO]   [⏩] SKIPPED         | Player ID: 191206910 (Already in history)
+2026-10-18 06:34:39,136 [INFO]   [⏩] SKIPPED         | Player ID: 206396393 (Already in history)
+2026-10-18 06:34:39,136 [INFO]   [⏩] SKIPPED         | Player ID: 199841828 (Already in history)
+2026-10-18 06:34:39,136 [INFO]   [⏩] SKIPPED         | Player ID: 181956502 (Already in history)
+2026-10-18 06:34:39,136 [INFO]   [⏩] SKIPPED         | Player ID: 215135464 (Already in history)
+2026-10-18 06:34:39,136 [INFO]   [⏩] SKIPPED         | Player ID: 221630710 (Already in history)
+2026-10-18 06:34:39,136 [INFO]   [⏩] SKIPPED         | Player ID: 198153961 (Already in history)
+2026-10-18 06:34:39,136 [INFO]   [⏩] SKIPPED         | Player ID: 206052445 (Already in history)
+2026-10-18 06:34:39,136 [INFO]   [⏩] SKIPPED         | Player ID: 288526153 (Already in history)
+2026-10-18 06:34:39,136 [INFO]   [⏩] SKIPPED         | Player ID: 236945509 (Already in history)
+2026-10-18 06:34:39,136 [INFO]   [⏩] SKIPPED         | Player ID: 194344232 (Already in history)
+2026-10-18 06:34:39,136 [INFO]   [⏩] SKIPPED         | Player ID: 178860721 (Already in history)
+2026-10-18 06:34:39,136 [INFO]   [⏩] SKIPPED         | Player ID: 252053499 (Already in history)
+2026-10-18 06:34:39,136 [INFO]   [⏩] SKIPPED         | Player ID: 178259965 (Already in history)
+2026-10-18 06:34:39,136 [INFO]   [⏩] SKIPPED         | Player ID: 232920331 (Already in history)
+2026-10-18 06:34:39,136 [INFO]   [⏩] SKIPPED         | Player ID: 221862687 (Already in history)
+2026-10-18 06:34:39,136 [INFO]   [⏩] SKIPPED         | Player ID: 199530391 (Already in history)
+2026-10-18 06:34:39,136 [INFO]   [⏩] SKIPPED         | Player ID: 207493182 (Already in history)
+2026-10-18 06:34:39,136 [INFO]   [⏩] SKIPPED         | Player ID: 181758388 (Already in history)
+2026-10-18 06:34:39,136 [INFO]   [⏩] SKIPPED         | Player ID: 197220451 (Already in history)
+2026-10-18 06:34:39,136 [INFO]   [⏩] SKIPPED         | Player ID: 270999856 (Already in history)
+2026-10-18 06:34:39,136 [INFO]   [⏩] SKIPPED         | Player ID: 179303271 (Already in history)
+2026-10-18 06:34:39,136 [INFO]   [⏩] SKIPPED         | Player ID: 230281501 (Already in history)
+2026-10-18 06:34:39,136 [INFO]   [⏩] SKIPPED         | Player ID: 236856728 (Already in history)
+2026-10-18 06:34:39,136 [INFO]   [⏩] SKIPPED         | Player ID: 243858391 (Already in history)
+2026-10-18 06:34:39,136 [INFO]   [⏩] SKIPPED         | Player ID: 233666803 (Already in history)
+2026-10-18 06:34:39,136 [INFO]   [⏩] SKIPPED         | Player ID: 147982644 (Already in history)
+2026-10-18 06:34:39,136 [INFO]   [⏩] SKIPPED         | Player ID: 178615267 (Already in history)
+2026-10-18 06:34:39,136 [INFO]   [⏩] SKIPPED         | Player ID: 711972452 (Already in history)
+2026-10-18 06:34:39,136 [INFO]   [⏩] SKIPPED         | Player ID: 711987337 (Already in history)
+2026-10-18 06:34:39,136 [INFO]   [⏩] SKIPPED         | Player ID: 708955382 (Already in history)
+2026-10-18 06:34:39,136 [INFO]   [⏩] SKIPPED         | Player ID: 164962541 (Already in history)
+2026-10-18 06:34:39,136 [INFO]   [⏩] SKIPPED         | Player ID: 359646774 (Already in history)
+2026-10-18 06:34:39,136 [INFO]   [⏩] SKIPPED         | Player ID: 191998452 (Already in history)
+2026-10-18 06:34:39,136 [INFO]   [⏩] SKIPPED         | Player ID: 651011180 (Already in history)
+2026-10-18 06:34:39,136 [INFO]   [⏩] SKIPPED         | Player ID: 221316395 (Already in history)
+2026-10-18 06:34:39,136 [INFO]   [⏩] SKIPPED         | Player ID: 199940192 (Already in history)
+2026-10-18 06:34:39,136 [INFO]   [⏩] SKIPPED         | Player ID: 746675875 (Already in history)
+2026-10-18 06:34:39,136 [INFO]   [⏩] SKIPPED         | Player ID: 253810329 (Already in history)
+2026-10-18 06:34:39,136 [INFO]   [⏩] SKIPPED         | Player ID: 189717993 (Already in history)
+2026-10-18 06:34:39,136 [INFO] --- Code: 'summer26jp' [SKIPPED: Marked as Expired in Memory] ---
+2026-10-18 06:34:39,136 [INFO] --- Code: 'WOS0812' [SKIPPED: Marked as Expired in Memory] ---
+2026-10-18 06:34:39,136 [INFO] --- Code: 'VIP1021' ---
+2026-10-18 06:34:39,480 [ERROR]   [✗] FAILED         | Player ID: 206258850 -> RECHARGE_MONEY ERROR.
+2026-10-18 06:34:45,348 [ERROR]   [✗] FAILED         | Player ID: 178680408 -> RECHARGE_MONEY ERROR.
+2026-10-18 06:34:51,996 [ERROR]   [✗] FAILED         | Player ID: 197646356 -> RECHARGE_MONEY ERROR.
+2026-10-18 06:34:56,945 [ERROR]   [✗] FAILED         | Player ID: 190841885 -> RECHARGE_MONEY ERROR.
+2026-10-18 06:35:02,060 [ERROR]   [✗] FAILED         | Player ID: 198841815 -> RECHARGE_MONEY ERROR.
+2026-10-18 06:35:05,923 [INFO]   [✓] SUCCESS         | Player ID: 200398539
+2026-10-18 06:35:09,516 [INFO]   [✓] SUCCESS         | Player ID: 233533445
+2026-10-18 06:35:16,377 [ERROR]   [✗] FAILED         | Player ID: 179712561 -> RECHARGE_MONEY ERROR.
+2026-10-18 06:35:23,218 [ERROR]   [✗] FAILED         | Player ID: 248462897 -> RECHARGE_MONEY ERROR.
+2026-10-18 06:35:27,059 [ERROR]   [✗] FAILED         | Player ID: 179286900 -> RECHARGE_MONEY ERROR.
+2026-10-18 06:35:30,365 [ERROR]   [✗] FAILED         | Player ID: 138961481 -> RECHARGE_MONEY ERROR.
+2026-10-18 06:35:36,902 [ERROR]   [✗] FAILED         | Player ID: 215505556 -> RECHARGE_MONEY ERROR.
+2026-10-18 06:35:42,316 [ERROR]   [✗] FAILED         | Player ID: 191206910 -> RECHARGE_MONEY ERROR.
+2026-10-18 06:35:47,519 [ERROR]   [✗] FAILED         | Player ID: 206396393 -> RECHARGE_MONEY ERROR.
+2026-10-18 06:35:51,577 [ERROR]   [✗] FAILED         | Player ID: 199841828 -> RECHARGE_MONEY ERROR.
+2026-10-18 06:35:55,761 [ERROR]   [✗] FAILED         | Player ID: 181956502 -> RECHARGE_MONEY ERROR.
+2026-10-18 06:36:00,688 [ERROR]   [✗] FAILED         | Player ID: 215135464 -> RECHARGE_MONEY ERROR.
+2026-10-18 06:36:06,581 [ERROR]   [✗] FAILED         | Player ID: 221630710 -> RECHARGE_MONEY ERROR.
+2026-10-18 06:36:12,071 [ERROR]   [✗] FAILED         | Player ID: 198153961 -> RECHARGE_MONEY ERROR.
+2026-10-18 06:36:16,790 [ERROR]   [✗] FAILED         | Player ID: 206052445 -> RECHARGE_MONEY ERROR.
+2026-10-18 06:36:21,840 [ERROR]   [✗] FAILED         | Player ID: 288526153 -> RECHARGE_MONEY ERROR.
+2026-10-18 06:36:27,842 [ERROR]   [✗] FAILED         | Player ID: 236945509 -> RECHARGE_MONEY ERROR.
+2026-10-18 06:36:34,491 [ERROR]   [✗] FAILED         | Player ID: 194344232 -> RECHARGE_MONEY ERROR.
+2026-10-18 06:36:39,815 [ERROR]   [✗] FAILED         | Player ID: 178860721 -> RECHARGE_MONEY ERROR.
+2026-10-18 06:36:44,191 [ERROR]   [✗] FAILED         | Player ID: 252053499 -> RECHARGE_MONEY ERROR.
+2026-10-18 06:36:48,028 [ERROR]   [✗] FAILED         | Player ID: 178259965 -> RECHARGE_MONEY ERROR.
+2026-10-18 06:36:53,229 [ERROR]   [✗] FAILED         | Player ID: 232920331 -> RECHARGE_MONEY ERROR.
+2026-10-18 06:36:57,992 [ERROR]   [✗] FAILED         | Player ID: 221862687 -> RECHARGE_MONEY ERROR.
+2026-10-18 06:37:04,488 [ERROR]   [✗] FAILED         | Player ID: 199530391 -> RECHARGE_MONEY ERROR.
+2026-10-18 06:37:08,275 [ERROR]   [✗] FAILED         | Player ID: 207493182 -> RECHARGE_MONEY ERROR.
+2026-10-18 06:37:13,081 [ERROR]   [✗] FAILED         | Player ID: 181758388 -> RECHARGE_MONEY ERROR.
+2026-10-18 06:37:20,170 [ERROR]   [✗] FAILED         | Player ID: 197220451 -> RECHARGE_MONEY ERROR.
+2026-10-18 06:37:25,723 [ERROR]   [✗] FAILED         | Player ID: 270999856 -> RECHARGE_MONEY ERROR.
+2026-10-18 06:37:31,852 [ERROR]   [✗] FAILED         | Player ID: 179303271 -> RECHARGE_MONEY ERROR.
+2026-10-18 06:37:35,370 [ERROR]   [✗] FAILED         | Player ID: 230281501 -> RECHARGE_MONEY ERROR.
+2026-10-18 06:37:41,352 [ERROR]   [✗] FAILED         | Player ID: 236856728 -> RECHARGE_MONEY ERROR.
+2026-10-18 06:37:45,031 [ERROR]   [✗] FAILED         | Player ID: 243858391 -> RECHARGE_MONEY ERROR.
+2026-10-18 06:37:49,422 [ERROR]   [✗] FAILED         | Player ID: 233666803 -> RECHARGE_MONEY ERROR.
+2026-10-18 06:37:56,178 [ERROR]   [✗] FAILED         | Player ID: 147982644 -> RECHARGE_MONEY ERROR.
+2026-10-18 06:38:00,826 [ERROR]   [✗] FAILED         | Player ID: 178615267 -> RECHARGE_MONEY ERROR.
+2026-10-18 06:38:06,220 [ERROR]   [✗] FAILED         | Player ID: 711972452 -> RECHARGE_MONEY ERROR.
+2026-10-18 06:38:09,478 [ERROR]   [✗] FAILED         | Player ID: 711987337 -> RECHARGE_MONEY ERROR.
+2026-10-18 06:38:15,655 [ERROR]   [✗] FAILED         | Player ID: 708955382 -> RECHARGE_MONEY ERROR.
+2026-10-18 06:38:19,151 [ERROR]   [✗] FAILED         | Player ID: 164962541 -> RECHARGE_MONEY ERROR.
+2026-10-18 06:38:23,471 [ERROR]   [✗] FAILED         | Player ID: 359646774 -> RECHARGE_MONEY ERROR.
+2026-10-18 06:38:28,487 [ERROR]   [✗] FAILED         | Player ID: 191998452 -> RECHARGE_MONEY ERROR.
+2026-10-18 06:38:34,276 [ERROR]   [✗] FAILED         | Player ID: 651011180 -> RECHARGE_MONEY ERROR.
+2026-10-18 06:38:41,436 [ERROR]   [✗] FAILED         | Player ID: 221316395 -> RECHARGE_MONEY ERROR.
+2026-10-18 06:38:46,932 [ERROR]   [✗] FAILED         | Player ID: 199940192 -> USER INFO ERROR.
+2026-10-18 06:38:53,319 [ERROR]   [✗] FAILED         | Player ID: 746675875 -> RECHARGE_MONEY ERROR.
+2026-10-18 06:39:00,290 [INFO]   [✓] SUCCESS         | Player ID: 253810329
+2026-10-18 06:39:05,352 [ERROR]   [✗] FAILED         | Player ID: 189717993 -> USER INFO ERROR.
+2026-10-18 06:39:11,768 [INFO] 
+==========================================
+         REDEMPTION SUMMARY REPORT        
+==========================================
+  Total Unique Player IDs    : 52
+  Total History Unique IDs   : 69
+------------------------------------------
+  [✓] Newly Redeemed         : 3
+  [-] Already Claimed (API)  : 0
+  [⏩] Skipped (Local Memory) : 208
+  [!] Expired Codes           : 156
+  [✗] Failed Requests         : 49
+------------------------------------------
+  TOTAL SUCCESSFUL / CLAIMED : 211 / 416
+==========================================
+
